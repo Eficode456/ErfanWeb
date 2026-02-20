@@ -1,11 +1,10 @@
-header{
-  font-family: 'Vazirmatn', sans-serif;
+.Web-One{
+font-family: 'Vazirmatn', sans-serif;
 text-align: center;
   margin-top: 15px;
   font-size: 33px;
   font-weight:bold;
   color: rgb(0,119,124);
-  
 }
 body{
    font-family: 'Vazirmatn', sans-serif;
@@ -111,4 +110,68 @@ footer{
 .What-1 img {
   width: 50px;
   height: 50px;
+}
+.Web2{
+  font-family: 'Vazirmatn', sans-serif;
+text-align: center;
+  margin-top: 15px;
+  font-size: 33px;
+  font-weight:bold;
+  color: rgba(91,91,91,0.689);
+}
+.Pride-text{
+  text-align: center;
+}
+.web-two{
+font-family: 'Vazirmatn', sans-serif;
+text-align: center;
+  margin-top: 15px;
+  font-size: 35px;
+  font-weight:bold;
+  color: rgba(64,64,64,0.689);
+}
+
+
+
+/* کارت محصول */
+.product-card {
+  width: 300px;               /* عرض کارت */
+  background-color: #f5f5f5;  /* پس‌زمینه کارت */
+  padding: 15px;
+  border-radius: 20px;        /* گوشه‌های کارت گرد */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* سایه */
+  text-align: center;
+  margin: 20px auto;          /* وسط صفحه */
+  font-family: sans-serif;
+}
+
+/* عکس محصول */
+.product-image {
+  width: 100%;
+  height: 300px;             /* ارتفاع ثابت */
+  object-fit: cover;         /* پر شدن بدون کشیدگی */
+  border-radius: 20px;       /* گوشه‌های گرد عکس */
+  margin-bottom: 15px;
+}
+
+/* قیمت محصول */
+.product-price {
+  color: darkblue;
+  margin-bottom: 10px;
+}
+
+/* دکمه خرید */
+.buy-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.buy-button:hover {
+  background-color: #218838;
 }
