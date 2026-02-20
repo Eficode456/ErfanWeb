@@ -67,7 +67,7 @@ font-size:13px;
     transform: translateY(0);
   }
 }
-h2{
+.Maz{
   text-align: center;
   font-family: 'Vazirmatn', sans-serif;
   color: #00734ee9;
@@ -156,13 +156,15 @@ text-align: center;
 
 /* قیمت محصول */
 .product-price {
-  color: darkblue;
+  color:rgb(22,123,255);
   margin-bottom: 10px;
+  font-family: 'Vazirmatn', sans-serif;
 }
 
 /* دکمه خرید */
 .buy-button {
   display: inline-block;
+  font-family: 'Vazirmatn', sans-serif;
   padding: 10px 20px;
   background-color: #28a745;
   color: white;
@@ -174,4 +176,9 @@ text-align: center;
 
 .buy-button:hover {
   background-color: #218838;
+}
+.Star{
+  text-align: center;
+  color:rgb(255,190,22);
+  font-size:28px;
 }
